@@ -1,1 +1,19 @@
-key: value
+COLUMNS:
+  Order: int64  
+  Sales_in_thousands: float64
+  Vehicle_type: object 
+  Order Date: object 
+  dealership: object 
+  color: object 
+  Power_perf_factor: float64
+  Fuel_efficiency: float64
+  Fuel_capacity: int64  
+  Engine_size: float64
+  Horsepower: int64  
+  Wheelbase: float64
+  Width: float64
+  Length: float64
+  Price_in_lakhs: object
+
+TARGET_COLUMN:
+  name: Price_in_lakhs
