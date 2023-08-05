@@ -125,6 +125,7 @@ celerybeat.pid
 env/
 venv/
 mlproj/
+mlruns/
 ENV/
 env.bak/
 venv.bak/
