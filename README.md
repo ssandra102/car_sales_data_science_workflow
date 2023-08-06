@@ -13,7 +13,20 @@
 8. Update the main.py
 9. Update the app.py
 
+## Stages
 
+1. Data Ingestion
+2. Data validation
+3. Data Transformation
+4. Model Training
+5. Model Evaluation
+
+## Tech Stack
+1. Python
+2. Sci-kit Learn
+3. MLFlow
+4. Dagshub
+   
 # How to run?
 ### STEPS:
 
