@@ -14,7 +14,7 @@ class DataTransformation:
     
     def cleaning_data(self):
 
-        df = self.data.drop(['Order Date','dealership','color','Vehicle_type'], axis=1)
+        df = self.data.drop(['Order','Sales_in_thousands','Order Date','dealership','color','Vehicle_type'], axis=1)
         #remove letters from strings in "Price_in_lakhs" column
         df['Price_in_lakhs'] = df['Price_in_lakhs'].str.replace('L', '', regex=True)   
         logger.info("Removed unrelated columns")
