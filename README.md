@@ -73,11 +73,9 @@ export MLFLOW_TRACKING_PASSWORD=<PASSWORD>
 
 ## Flask Web App
 <p align="left">
-<img src ="https://github.com/ssandra102/car_sales_data_science_workflow/assets/72643907/04eb28d1-63cd-41a4-ae0e-0454d9742e0b">
+<img src ="https://github.com/ssandra102/car_sales_data_science_workflow/assets/72643907/51fb23aa-731f-48bf-9655-d3923bf1a82c">
 &nbsp; &nbsp; &nbsp; &nbsp;
   
-![Screenshot (16)](https://github.com/ssandra102/car_sales_data_science_workflow/assets/72643907/04eb28d1-63cd-41a4-ae0e-0454d9742e0b)
-
 
 <p align="left">
 <img src ="https://github.com/ssandra102/car_sales_data_science_workflow/assets/72643907/84c9b46c-20dc-4893-b552-980bc8b54e08">
