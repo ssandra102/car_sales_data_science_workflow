@@ -73,7 +73,10 @@ export MLFLOW_TRACKING_PASSWORD=<PASSWORD>
 
 ## Flask Web App
 ![FORM](https://github.com/ssandra102/car_sales_data_science_workflow/assets/72643907/ca2b86de-a82c-4672-8b2a-5c9f18adcc94)
+<br>
 ![PREDICTION](https://github.com/ssandra102/car_sales_data_science_workflow/assets/72643907/aeca3930-a32f-4a5a-a5d6-01dbe72352b7)
+<br>
 
+(note: the values entered in the form are random. The predicted car price is in Lakhs.)
 
 
