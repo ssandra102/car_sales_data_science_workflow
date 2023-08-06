@@ -44,27 +44,18 @@ pip install -r requirements.txt
 python app.py
 ```
 
-Now,
-```bash
-open up your local host and port
-```
+Now, open up your local host and port
 
 
 
 ## MLflow
-
-[Documentation](https://mlflow.org/docs/latest/index.html)
-
-
 ##### cmd
 - mlflow ui
 
 ### dagshub
-[dagshub](https://dagshub.com/)
-
-MLFLOW_TRACKING_URI=<https://dagshub.com/{USERNAME}/{REPO NAME}.mlflow> \
-MLFLOW_TRACKING_USERNAME=<USERNAME> \
-MLFLOW_TRACKING_PASSWORD=<PASSWORD> \
+MLFLOW_TRACKING_URI=<https://dagshub.com/{USERNAME}/{REPO_NAME}.mlflow> \
+MLFLOW_TRACKING_USERNAME=USERNAME \
+MLFLOW_TRACKING_PASSWORD=PASSWORD \
 python script.py
 
 Run this to export as env variables:
@@ -78,3 +69,11 @@ export MLFLOW_TRACKING_USERNAME=<USERNAME>
 export MLFLOW_TRACKING_PASSWORD=<PASSWORD>
 
 ```
+
+
+## Flask Web App
+![FORM](https://github.com/ssandra102/car_sales_data_science_workflow/assets/72643907/ca2b86de-a82c-4672-8b2a-5c9f18adcc94)
+![PREDICTION](https://github.com/ssandra102/car_sales_data_science_workflow/assets/72643907/aeca3930-a32f-4a5a-a5d6-01dbe72352b7)
+
+
+
