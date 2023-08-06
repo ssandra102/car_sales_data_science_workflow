@@ -20,7 +20,7 @@
 Clone the repository
 
 ```bash
-https://github.com/ssandra102/car_sales_data_science_workflow.git
+git clone https://github.com/ssandra102/car_sales_data_science_workflow.git
 ```
 ### STEP 01- Create a virtual environment after opening the repository
 
@@ -46,7 +46,7 @@ python app.py
 
 Now,
 ```bash
-open up you local host and port
+open up your local host and port
 ```
 
 
@@ -62,19 +62,19 @@ open up you local host and port
 ### dagshub
 [dagshub](https://dagshub.com/)
 
-MLFLOW_TRACKING_URI=https://dagshub.com/ssandra102/car_sales_data_science_workflow.mlflow \
-MLFLOW_TRACKING_USERNAME=ssandra102 \
-MLFLOW_TRACKING_PASSWORD=6b235e975826c50ab932e83ce1a719d24a7c439d \
+MLFLOW_TRACKING_URI=<https://dagshub.com/{USERNAME}/{REPO NAME}.mlflow> \
+MLFLOW_TRACKING_USERNAME=<USERNAME> \
+MLFLOW_TRACKING_PASSWORD=<PASSWORD> \
 python script.py
 
 Run this to export as env variables:
 
 ```bash
 
-export MLFLOW_TRACKING_URI=https://dagshub.com/ssandra102/car_sales_data_science_workflow.mlflow
+export MLFLOW_TRACKING_URI=<https://dagshub.com/{USERNAME}/{REPO NAME}.mlflow>
 
-export MLFLOW_TRACKING_USERNAME=ssandra102 
+export MLFLOW_TRACKING_USERNAME=<USERNAME>
 
-export MLFLOW_TRACKING_PASSWORD=6b235e975826c50ab932e83ce1a719d24a7c439d
+export MLFLOW_TRACKING_PASSWORD=<PASSWORD>
 
 ```
