@@ -13,14 +13,27 @@
 8. Update the main.py
 9. Update the app.py
 
+## Stages
 
+1. Data Ingestion
+2. Data validation
+3. Data Transformation
+4. Model Training
+5. Model Evaluation
+
+## Tech Stack
+1. Python
+2. Sci-kit Learn
+3. MLFlow
+4. Dagshub
+   
 # How to run?
 ### STEPS:
 
 Clone the repository
 
 ```bash
-https://github.com/ssandra102/car_sales_data_science_workflow.git
+git clone https://github.com/ssandra102/car_sales_data_science_workflow.git
 ```
 ### STEP 01- Create a virtual environment after opening the repository
 
@@ -44,37 +57,44 @@ pip install -r requirements.txt
 python app.py
 ```
 
-Now,
-```bash
-open up you local host and port
-```
+Now, open up your local host and port
 
 
 
 ## MLflow
-
-[Documentation](https://mlflow.org/docs/latest/index.html)
-
-
 ##### cmd
 - mlflow ui
 
 ### dagshub
-[dagshub](https://dagshub.com/)
-
-MLFLOW_TRACKING_URI=https://dagshub.com/ssandra102/car_sales_data_science_workflow.mlflow \
-MLFLOW_TRACKING_USERNAME=ssandra102 \
-MLFLOW_TRACKING_PASSWORD=6b235e975826c50ab932e83ce1a719d24a7c439d \
+MLFLOW_TRACKING_URI=<https://dagshub.com/{USERNAME}/{REPO_NAME}.mlflow> \
+MLFLOW_TRACKING_USERNAME=USERNAME \
+MLFLOW_TRACKING_PASSWORD=PASSWORD \
 python script.py
 
 Run this to export as env variables:
 
 ```bash
 
-export MLFLOW_TRACKING_URI=https://dagshub.com/ssandra102/car_sales_data_science_workflow.mlflow
+export MLFLOW_TRACKING_URI=<https://dagshub.com/{USERNAME}/{REPO NAME}.mlflow>
 
-export MLFLOW_TRACKING_USERNAME=ssandra102 
+export MLFLOW_TRACKING_USERNAME=<USERNAME>
 
-export MLFLOW_TRACKING_PASSWORD=6b235e975826c50ab932e83ce1a719d24a7c439d
+export MLFLOW_TRACKING_PASSWORD=<PASSWORD>
 
 ```
+
+
+## Flask Web App
+<p align="left">
+<img src ="https://github.com/ssandra102/car_sales_data_science_workflow/assets/72643907/51fb23aa-731f-48bf-9655-d3923bf1a82c">
+&nbsp; &nbsp; &nbsp; &nbsp;
+  
+
+<p align="left">
+<img src ="https://github.com/ssandra102/car_sales_data_science_workflow/assets/72643907/84c9b46c-20dc-4893-b552-980bc8b54e08">
+&nbsp; &nbsp; &nbsp; &nbsp;
+
+(note: the values entered in the form are random. The predicted car price is in Lakhs.)
+
+
+
