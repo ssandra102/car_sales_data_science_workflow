@@ -85,6 +85,7 @@ export MLFLOW_TRACKING_PASSWORD=<PASSWORD>
 
 
 ## Flask Web App
+hosted in Microsoft Azure : https://car-price-prediction-webapp.azurewebsites.net
 <p align="left">
 <img src ="https://github.com/ssandra102/car_sales_data_science_workflow/assets/72643907/51fb23aa-731f-48bf-9655-d3923bf1a82c">
 &nbsp; &nbsp; &nbsp; &nbsp;
